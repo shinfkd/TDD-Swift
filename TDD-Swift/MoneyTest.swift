@@ -19,10 +19,12 @@ class MoneyTest: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    func testMultiplication() {
         let five: Dollar = Dollar(5)
-        five.times(2)
-        XCTAssertEqual(10, five.amount)
+        var product: Dollar = five.times(2)
+        XCTAssertEqual(10, product.amount)
+        product = five.times(3)
+        XCTAssertEqual(15, product.amount)
     }
 
     func testPerformanceExample() {
