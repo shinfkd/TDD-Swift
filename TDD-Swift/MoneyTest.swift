@@ -27,6 +27,12 @@ class MoneyTest: XCTestCase {
         XCTAssertEqual(15, product.amount)
     }
 
+    func testEquality() {
+        XCTAssertEqual(Dollar(5), Dollar(5))
+
+        XCTAssertNotEqual(Dollar(5), Dollar(6))
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
