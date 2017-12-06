@@ -10,6 +10,7 @@
 		024CAAC2F60B9E563F334B98 /* Pods_TDD_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570E5426BC8391360282AA93 /* Pods_TDD_Swift.framework */; };
 		546CD4DD1FD2F442004C1A7E /* MoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */; };
 		546CD4DF1FD2F6C8004C1A7E /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546CD4DE1FD2F6C8004C1A7E /* Dollar.swift */; };
+		54B45BA61FD704BC00FC4DCE /* Franc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B45BA51FD704BC00FC4DCE /* Franc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		546CD4D81FD2F35F004C1A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTest.swift; sourceTree = "<group>"; };
 		546CD4DE1FD2F6C8004C1A7E /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		54B45BA51FD704BC00FC4DCE /* Franc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Franc.swift; sourceTree = "<group>"; };
 		570E5426BC8391360282AA93 /* Pods_TDD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F15F2508EF25DDCB7D2C65D /* Pods-TDD-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDD-Swift/Pods-TDD-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				546CD4D81FD2F35F004C1A7E /* Info.plist */,
 				546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */,
 				546CD4DE1FD2F6C8004C1A7E /* Dollar.swift */,
+				54B45BA51FD704BC00FC4DCE /* Franc.swift */,
 			);
 			path = "TDD-Swift";
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B45BA61FD704BC00FC4DCE /* Franc.swift in Sources */,
 				546CD4DD1FD2F442004C1A7E /* MoneyTest.swift in Sources */,
 				546CD4DF1FD2F6C8004C1A7E /* Dollar.swift in Sources */,
 			);
