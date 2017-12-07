@@ -28,6 +28,8 @@ class MoneyTest: XCTestCase {
     func testEquality() {
         XCTAssertEqual(Dollar(5), Dollar(5))
         XCTAssertNotEqual(Dollar(5), Dollar(6))
+        XCTAssertEqual(Franc(5), Franc(5))
+        XCTAssertNotEqual(Franc(5), Franc(6))
     }
 
     func testFrancMultiplication() {

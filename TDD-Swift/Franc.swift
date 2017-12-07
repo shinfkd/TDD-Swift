@@ -6,18 +6,14 @@
 //
 
 import Foundation
-class Franc: Equatable {
-    private var amount: Int
+class Franc: Money {
 
-    init(_ amount: Int) {
+    override init(_ amount: Int) {
+        super.init(amount)
         self.amount = amount
     }
 
     func times(_ multiplier: Int) -> Franc {
         return Franc(amount * multiplier)
-    }
-
-    static func == (lhs: Franc, rhs: Franc) -> Bool {
-        return lhs.amount == rhs.amount
     }
 }
