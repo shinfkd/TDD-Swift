@@ -44,6 +44,10 @@ class MoneyTest: XCTestCase {
         XCTAssertEqual("CHF", Money.franc(1).currency)
     }
 
+    func testDifferenctClassEquality() {
+        XCTAssertEqual(Money(10, currency: "CHF"), Franc(10, currency: "CHF"))
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

@@ -10,8 +10,4 @@ class Franc: Money {
     override init(_ amount: Int, currency: String) {
         super.init(amount, currency: currency)
     }
-
-    override func times(_ multiplier: Int) -> Money {
-        return Money.franc(amount * multiplier)
-    }
 }
