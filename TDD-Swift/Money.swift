@@ -25,10 +25,10 @@ class Money: Equatable {
     }
 
     static func dollar(_ amount: Int) -> Money {
-        return Dollar(amount, currency: "USD")
+        return Money(amount, currency: "USD")
     }
 
     static func franc(_ amount: Int) -> Money {
-        return Franc(amount, currency: "CHF")
+        return Money(amount, currency: "CHF")
     }
 }
