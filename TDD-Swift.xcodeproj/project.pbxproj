@@ -10,6 +10,7 @@
 		024CAAC2F60B9E563F334B98 /* Pods_TDD_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570E5426BC8391360282AA93 /* Pods_TDD_Swift.framework */; };
 		544FDB601FE01FDF00BA6D6E /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB5F1FE01FDF00BA6D6E /* Expression.swift */; };
 		544FDB621FE0203300BA6D6E /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB611FE0203300BA6D6E /* Bank.swift */; };
+		544FDB641FE190BA00BA6D6E /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB631FE190BA00BA6D6E /* Sum.swift */; };
 		546CD4DD1FD2F442004C1A7E /* MoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */; };
 		54D5F87B1FD9ACE400EC6941 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5F87A1FD9ACE400EC6941 /* Money.swift */; };
 /* End PBXBuildFile section */
@@ -18,6 +19,7 @@
 		0771CA8B4E0A1A33A71F1787 /* Pods-TDD-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDD-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDD-Swift/Pods-TDD-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		544FDB5F1FE01FDF00BA6D6E /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 		544FDB611FE0203300BA6D6E /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		544FDB631FE190BA00BA6D6E /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		546CD4D31FD2F35F004C1A7E /* TDD-Swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-Swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		546CD4D81FD2F35F004C1A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTest.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				54D5F87A1FD9ACE400EC6941 /* Money.swift */,
 				544FDB5F1FE01FDF00BA6D6E /* Expression.swift */,
 				544FDB611FE0203300BA6D6E /* Bank.swift */,
+				544FDB631FE190BA00BA6D6E /* Sum.swift */,
 			);
 			path = "TDD-Swift";
 			sourceTree = "<group>";
@@ -193,7 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint";
+			shellScript = "#${PODS_ROOT}/SwiftLint/swiftlint";
 		};
 		8DA85EE81E9F17810094E5D6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				544FDB641FE190BA00BA6D6E /* Sum.swift in Sources */,
 				546CD4DD1FD2F442004C1A7E /* MoneyTest.swift in Sources */,
 				544FDB621FE0203300BA6D6E /* Bank.swift in Sources */,
 				54D5F87B1FD9ACE400EC6941 /* Money.swift in Sources */,
