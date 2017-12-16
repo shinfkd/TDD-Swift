@@ -11,6 +11,7 @@
 		544FDB601FE01FDF00BA6D6E /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB5F1FE01FDF00BA6D6E /* Expression.swift */; };
 		544FDB621FE0203300BA6D6E /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB611FE0203300BA6D6E /* Bank.swift */; };
 		544FDB641FE190BA00BA6D6E /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB631FE190BA00BA6D6E /* Sum.swift */; };
+		544FDB661FE4340C00BA6D6E /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544FDB651FE4340C00BA6D6E /* Pair.swift */; };
 		546CD4DD1FD2F442004C1A7E /* MoneyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */; };
 		54D5F87B1FD9ACE400EC6941 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D5F87A1FD9ACE400EC6941 /* Money.swift */; };
 /* End PBXBuildFile section */
@@ -20,6 +21,7 @@
 		544FDB5F1FE01FDF00BA6D6E /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
 		544FDB611FE0203300BA6D6E /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
 		544FDB631FE190BA00BA6D6E /* Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
+		544FDB651FE4340C00BA6D6E /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
 		546CD4D31FD2F35F004C1A7E /* TDD-Swift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-Swift.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		546CD4D81FD2F35F004C1A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546CD4DC1FD2F442004C1A7E /* MoneyTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTest.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				544FDB5F1FE01FDF00BA6D6E /* Expression.swift */,
 				544FDB611FE0203300BA6D6E /* Bank.swift */,
 				544FDB631FE190BA00BA6D6E /* Sum.swift */,
+				544FDB651FE4340C00BA6D6E /* Pair.swift */,
 			);
 			path = "TDD-Swift";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				544FDB621FE0203300BA6D6E /* Bank.swift in Sources */,
 				54D5F87B1FD9ACE400EC6941 /* Money.swift in Sources */,
 				544FDB601FE01FDF00BA6D6E /* Expression.swift in Sources */,
+				544FDB661FE4340C00BA6D6E /* Pair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
