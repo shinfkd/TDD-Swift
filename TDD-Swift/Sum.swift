@@ -7,16 +7,20 @@
 
 import Foundation
 class Sum: Expression {
-    var augend: Money
-    var addend: Money
+    var augend: Expression
+    var addend: Expression
 
-    init(augend: Money, addend: Money) {
+    init(augend: Expression, addend: Expression) {
         self.augend = augend
         self.addend = addend
     }
 
+    func plus(_ addend: Expression) -> Expression {
+        return Money.dollar(1)
+    }
+
     func reduce(bank: Bank, to: String) -> Money {
-        let amount: Int = augend.amount + addend.amount
+        let amount: Int = augend.reduce(bank: bank, to: to).amount + addend.reduce(bank: bank, to: to).amount
         return Money(amount, currency: to)
     }
 }
