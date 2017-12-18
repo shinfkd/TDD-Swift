@@ -85,6 +85,26 @@ class MoneyTest: XCTestCase {
         XCTAssertEqual(Money.dollar(10), result)
     }
 
+    func testSumPlusMoney() {
+        let fiveBucks: Expression = Money.dollar(5)
+        let tenFrancs: Expression = Money.franc(10)
+        let bank: Bank = Bank()
+        bank.addRate(from: "CHF", to: "USD", rate: 2)
+        let sum: Expression = Sum(augend: fiveBucks, addend: tenFrancs).plus(fiveBucks)
+        let result: Money = bank.reduce(source: sum, to: "USD")
+        XCTAssertEqual(Money.dollar(15), result)
+    }
+
+    func testSumTimes() {
+        let fiveBucks: Expression = Money.dollar(5)
+        let tenFrancs: Expression = Money.franc(10)
+        let bank: Bank = Bank()
+        bank.addRate(from: "CHF", to: "USD", rate: 2)
+        let sum: Expression = Sum(augend: fiveBucks, addend: tenFrancs).times(2)
+        let result = bank.reduce(source: sum, to: "USD")
+        XCTAssertEqual(Money.dollar(20), result)
+    }
+
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
